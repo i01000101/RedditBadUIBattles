@@ -1,6 +1,7 @@
 # RedditBadUIBattles
 My UI designs that I created for a Reddit subreddit named Bad UI Battles where the developers intentionally design bad UI .
-https://i01000101.github.io/RedditBadUIBattles/
+
+https://www.reddit.com/r/badUIbattles/
 
 ### The best way to limit username size
 
