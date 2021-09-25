@@ -9,3 +9,9 @@ https://www.reddit.com/r/badUIbattles/
 
 https://i01000101.github.io/RedditBadUIBattles/LimitUsernameSize/badDesign.html
 https://www.reddit.com/r/badUIbattles/comments/mkqah0/the_best_way_to_limit_username_size/
+
+### Scientific Date Picker
+
+![](./ScientificDatePicker/datePicker.gif)
+
+https://i01000101.github.io/RedditBadUIBattles/ScientificDatePicker/index.html
