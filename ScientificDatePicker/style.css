@@ -71,6 +71,10 @@ input {
   cursor: grab;
 }
 
+svg {
+  width: 100%;
+}
+
 button {
   
   border: none;
