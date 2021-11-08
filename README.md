@@ -16,3 +16,9 @@ https://www.reddit.com/r/badUIbattles/comments/mkqah0/the_best_way_to_limit_user
 
 https://i01000101.github.io/RedditBadUIBattles/ScientificDatePicker/index.html
 https://www.reddit.com/r/badUIbattles/comments/pvgd79/scientific_date_picker/
+
+### Full-Analog Clock
+
+![](./FullAnalogClock/fullAnalogClock.gif)
+
+https://i01000101.github.io/RedditBadUIBattles/FullAnalogClock/index.html
