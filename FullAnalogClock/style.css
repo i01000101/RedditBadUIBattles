@@ -1,0 +1,127 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background: #370067;
+  font: 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+#main {
+  position: relative;
+  width: 35%;
+  min-width: 250px;
+  aspect-ratio: 1;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.hand {
+  border-radius: 50% 50% 0% 0% / 85% 85% 0% 0% ;
+  position: absolute;
+  transform-origin: center bottom;
+  left: 52%;
+  transition: transform 2s;
+}
+
+.hand div {
+  flex: 1;
+}
+
+#hourHand {
+  top: 21.5%;
+  left: 48.5%;
+  height: 30%;
+  width: 3%;
+  background-color: black;
+}
+
+#minHand {
+  top: 11%;
+  left: 49%;
+  height: 40%;
+  width: 2%;
+  background-color: #fff300;
+}
+
+#secHand {
+  top: 5.5%;
+  left: 49.5%;
+  height: 45%;
+  width: 1%;
+  background-color: #B60084;
+}
+
+#stopper {
+  position: absolute;
+  width: 5%;
+  aspect-ratio: 1;
+  top: 48.5%;
+  left: 47.5%;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%; 
+  background-color: black;
+}
+
+.number {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+}
+
+#controlArea {
+  width: 30%;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.controlRow{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin: 2% 0;
+}
+
+.controlRow * {
+  flex: 1;
+  margin: 0 5%;
+}
+
+.timeLabel{
+  text-align: center;
+  color:rgb(196, 194, 194);
+}
+
+.timeLabel.active {
+  color: #9fff94;
+  font-weight: bold;
+}
+
+button {
+  flex: 1;
+  border: none;
+  background: #fff;
+  color: #0a3d62;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  /*cursor: pointer;*/
+}
+
+.push {
+  color: rgb(196, 194, 194);
+  background-color: gray;
+  cursor: not-allowed;
+  font: inherit;
+}
+
+.push.active {
+  color: #fff;
+  background-color: #0054d3;
+  cursor: pointer;
+}

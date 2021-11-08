@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Full-Analog Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <div id="main">
+      <div id="hourHand" class="hand">
+      </div>
+      <div id="minHand" class="hand">
+      </div>
+      <div id="secHand" class="hand">
+      </div>
+      <div id="stopper"></div>
+    </div>
+    <div id="controlArea">
+      <div class="controlRow">
+        <div id="hour" class="timeLabel">0</div>
+        <div id="min" class="timeLabel">0</div>
+        <div id="sec" class="timeLabel">0</div>
+      </div>
+      <div class="controlRow">
+        <button id="hourPush" type="button" class="push" onclick="push('hour')">Push</button>
+        <button id="minPush" type="button" class="push" onclick="push('min')">Push</button>
+        <button id="secPush" type="button" class="push" onclick="push('sec')">Push</button>
+      </div>
+    </div>
+    <script src="logic.js"></script>
+  </body>
+</html>
