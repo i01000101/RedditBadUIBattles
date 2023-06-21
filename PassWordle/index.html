@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PassWordle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Login</h1>
+  <div id="loginArea">
+    <div class="row">
+      <h2>Name</h2>
+      <input>
+    </div>
+    <div class="row">
+      <h2>Nick</h2>
+      <input>
+    </div>
+    <div style="width: 230px;">
+      <h2>Passw<span><img id="eye" src="icons/eye.png" onclick="eye()" width="20px"></span>rd</h2>
+    </div>
+    <div class="row">
+      <div id="password" contenteditable="true" spellcheck="false" onpaste="return false;"></div>
+    </div>
+    <button id="loginButton" onClick="window.location.reload()" disabled>LOGIN</button>
+  </div>
+
+  <script src="logic.js"></script>
+</body>
+</html>
