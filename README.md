@@ -22,3 +22,10 @@ https://www.reddit.com/r/badUIbattles/comments/pvgd79/scientific_date_picker/
 ![](./FullAnalogClock/fullAnalogClock.gif)
 
 https://i01000101.github.io/RedditBadUIBattles/FullAnalogClock/index.html
+
+### PassWordle
+
+![](./PassWordle/passWordle.gif)
+
+https://i01000101.github.io/RedditBadUIBattles/PassWordle/index.html
+https://www.reddit.com/r/badUIbattles/comments/14ggvxo/passwordle/
